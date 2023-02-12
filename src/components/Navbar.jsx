@@ -1,5 +1,5 @@
 import Button from "./Button"
-
+import logo from '../assets/img/logo.png'
 
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className=' container mx-auto px-10'>
         <div className="flex justify-between items-center">
-          <img  src='/src/assets/logo.png' alt='Logo' />
+          <img  src={logo} alt='Logo' />
           <div className="hidden md:flex justify-between space-x-16 text-dark">
             <a href="#"><strong>Beranda</strong></a>
             <a href="#">Fitur-Fitur</a>
