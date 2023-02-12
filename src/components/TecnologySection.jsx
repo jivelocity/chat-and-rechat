@@ -53,7 +53,7 @@ function TecnologySection() {
                 <img src={profileImg} alt='' />
                 <div>
                   <p className='text-sm font-semibold text-white'>
-                    Ahmad Rifai
+                    Kang Chi Lung
                   </p>
                   <p className='text-xs text-gray-400'>Last seen at 16:40</p>
                 </div>
@@ -121,7 +121,7 @@ function TecnologySection() {
                 <HiChevronLeft className='text-2xl text-gray-400' />
                 <img src={profileImg} alt='' />
                 <div>
-                  <p className='text-sm font-semibold'>Ahmad Rifai</p>
+                  <p className='text-sm font-semibold'>Kang Chi Lung</p>
                   <p className='text-xs text-gray-400'>Last seen at 16:40</p>
                 </div>
               </div>
@@ -186,7 +186,7 @@ function TecnologySection() {
             <h4 className='text-sm text-dark uppercase font-semibold'>
               teknologi yang digunakan
             </h4>
-            <h1 className='text-3xl text-dark leading-10 '>
+            <h1 className='md:text-3xl text-2xl font-semibold text-dark md:leading-10 leading-normal '>
               Teknologi Yang Kami Gunakan Di Dalam Aplikasi Ini Akan Membuat DHH
               Dan Jason Fried Pensiun! 😱
             </h1>

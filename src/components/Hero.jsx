@@ -73,8 +73,8 @@ function Hero() {
 
         {/* right side */}
         <div className='relative flex justify-center items-center lg:w-1/2 w-full max-h-max order-1 lg:order-2'>
-          <div className='bg-primaryLight lg:w-[28rem] lg:h-[28rem] w-[16rem] h-[16rem] rounded-full absolute'></div>
-          <div className='bg-white md:rotate-[15deg] rounded-2xl md:w-[20.731rem] md:h-[41.828rem] w-[15rem] h-[30rem] shadow-2xl shadow-blue-800/40'>
+          <div className='bg-primaryLight lg:w-[28rem] lg:h-[28rem] w-[16rem] h-[16rem] rounded-full absolute z-0'></div>
+          <div className='bg-white md:rotate-[15deg] rounded-2xl md:w-[20.731rem] md:h-[41.828rem] w-[15rem] h-[30rem] shadow-2xl shadow-blue-800/40 z-10'>
             {/* profile */}
             <div>
               <div className='flex justify-center space-x-1 items-center py-4'>
@@ -92,9 +92,9 @@ function Hero() {
             </div>
 
             {/* Chat Section*/}
-            <div className='space-y-10 px-4 md:py-10 py-0 flex-1'>
+            <div className='md:space-y-10 space-y-6 px-4 md:py-10 py-0 flex-1 md:pt-0 pt-6'>
               {/* Chat Box */}
-              <ParallaxMouseMove speed={-0.4}>
+              <ParallaxMouseMove speed={-0.6}>
                 <div className=''>
                   {/* top */}
                   <div className='bg-white rounded-lg md:w-[19.25rem] md:h-36 w-[14rem] rounded-tl-none p-4 space-y-2 drop-shadow-xl relative'>
@@ -105,8 +105,8 @@ function Hero() {
                     />
                     <div className='bg-gray-200 w-48 h-3 rounded'></div>
                     <div className='bg-gray-200 md:w-64 w-35 h-3 rounded'></div>
-                    <div className='bg-gray-200 w-40 h-3 rounded'></div>
-                    <div className='bg-gray-200 w-48 h-3 rounded'></div>
+                    <div className='bg-gray-200 w-40 h-3 rounded hidden md:block'></div>
+                    <div className='bg-gray-200 w-48 h-3 rounded hidden md:block'></div>
                     <div className='bg-gray-200 w-40 h-3 rounded'></div>
                   </div>
                   <div className='flex justify-end mt-1 md:w-[19.25rem] w-[14rem]'>
@@ -126,7 +126,7 @@ function Hero() {
                     </span>
                     <div className='bg-blue-400 w-40 h-3 rounded'></div>
                     <div className='bg-blue-400 w-48 h-3 rounded'></div>
-                    <div className='bg-blue-400 w-40 h-3 rounded'></div>
+                    <div className='bg-blue-400 w-40 h-3 rounded hidden md:block'></div>
                     <div className='bg-blue-400 w-48 h-3 rounded'></div>
                   </div>
                   <div className='flex justify-start mt-1 md:w-[19.25rem] w-[14rem]'>
@@ -136,9 +136,9 @@ function Hero() {
                 </div>
               </ParallaxMouseMove>
             </div>
-            <div className='px-4'>
+            <div className='px-4 md:mt-24 mt-6'>
               {/* Tempat Ngetik */}
-              <div className=' flex items-center px-5 py-3 border border-gray-300 rounded-full text-darkLight space-x-3 md:mt-12 mt-0'>
+              <div className=' flex items-center px-5 py-3 border border-gray-300 rounded-full text-darkLight space-x-3 '>
                 <AiOutlineSmile />
                 <p className='text-xs'>Type a message</p>
               </div>
