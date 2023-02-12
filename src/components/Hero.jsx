@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from 'react'
-import circle from '../assets/img/bluecircle.png'
+import circle from '/assets/img/bluecircle.png'
 
 import Button from './Button'
 import { FiArrowRightCircle } from 'react-icons/fi'
 import { HiOutlineDownload } from 'react-icons/hi'
 import { BiUser } from 'react-icons/bi'
 
-import profileImg from '../assets/img/profile.png'
+import profileImg from '/assets/img/profile.png'
 import { HiChevronLeft } from 'react-icons/hi'
 import { BsCheck2 } from 'react-icons/bs'
 import { AiOutlineSmile } from 'react-icons/ai'

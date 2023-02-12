@@ -1,5 +1,5 @@
-import appStore from '../assets/img/appstore.png'
-import playStore from '../assets/img/playstore.png'
+import appStore from '/assets/img/appstore.png'
+import playStore from '/assets/img/playstore.png'
 import { BsCheck2 } from 'react-icons/bs'
 
 function DownloadSection() {

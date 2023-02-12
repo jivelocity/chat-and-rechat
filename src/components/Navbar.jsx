@@ -1,5 +1,5 @@
 import Button from "./Button"
-import logo from '../assets/img/logo.png'
+import logo from '/assets/img/logo.png'
 
 
 function Navbar() {

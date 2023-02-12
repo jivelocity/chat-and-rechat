@@ -1,4 +1,5 @@
 function Card({ imgUrl, title, desc }) {
+  console.log(imgUrl);
 
   return (
     <div className='flex flex-col md:w-80 h-[350px] justify-bettwen items-center p-4'>

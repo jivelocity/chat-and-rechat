@@ -1,24 +1,28 @@
 import Card from './Card'
+import groupImage from '/assets/img/card1.png'
+import simpleImage from '/assets/img/card2.png'
+import speakImage from '/assets/img/card3.png'
+
 
 function FeatureSection() {
   const cardValues = [
     {
       id: 1,
-      imgUrl: 'src/assets/img/card1.png',
+      imgUrl: groupImage,
       title: 'Groups to keep in touch',
       description:
         'Keep in touch with the groups of people that matter the most, like your family or coworkers. With group chats, you can share messages, photos, and videos.',
     },
     {
       id: 2,
-      imgUrl: 'src/assets/img/card2.png',
+      imgUrl: simpleImage,
       title: 'Simple, Reliable Messaging',
       description:
         "Message your friends and family for free*. WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees.",
     },
     {
       id: 3,
-      imgUrl: 'src/assets/img/card3.png',
+      imgUrl: speakImage,
       title: 'Speak Freely',
       description:
         "With voice calls, you can talk to your friends and family for free*, even if they're in another country. And with free* video calls, you can have face-to-face conversations.",
@@ -26,6 +30,7 @@ function FeatureSection() {
   ]
 
   const renderedCards = cardValues.map((cardValue) => {
+    
     return (
       <Card
         key={cardValue.id}
