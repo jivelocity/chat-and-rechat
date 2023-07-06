@@ -47,7 +47,7 @@ function FAQSection() {
   ]
 
   return (
-    <div className='container mx-auto px-10 mt-20'>
+    <div id='faq' className='container mx-auto px-10 mt-20'>
       <div className='flex flex-col items-center space-y-2 text-center'>
         <p className='text-sm text-dark uppercase'>Banyak yang nanya</p>
         <p className='text-3xl text-dark'>Pertanyaan Yang Sering Ditanyakan</p>

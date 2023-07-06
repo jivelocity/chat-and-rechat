@@ -1,6 +1,7 @@
 import instagram from '/assets/img/ig.png'
 import facebook from '/assets/img/fb.png'
 import twitter from '/assets/img/tw.png'
+import { HashLink } from 'react-router-hash-link'
 
 function Footer() {
   return (
@@ -19,12 +20,24 @@ function Footer() {
           </div>
 
           <div className='flex flex-col justify-between space-y-2 md:items-start items-center '>
-            <h1 className='text-dark font-semibold md:text-2xl text-xl'>Sitemap</h1>
-            <a href=''>Beranda</a>
-            <a href=''>Fitur-fitur</a>
-            <a href=''>Teknologi</a>
-            <a href=''>FAQ</a>
-            <a href=''>Download</a>
+            <h1 className='text-dark font-semibold md:text-2xl text-xl'>
+              Sitemap
+            </h1>
+            <HashLink smooth to='/#beranda'>
+              <a>Beranda</a>
+            </HashLink>
+            <HashLink smooth to='/#fitur'>
+              <a>Fitur-fitur</a>
+            </HashLink>
+            <HashLink smooth to='/#teknologi'>
+              <a>Teknologi</a>
+            </HashLink>
+            <HashLink smooth to='/#faq'>
+              <a>FAQ</a>
+            </HashLink>
+            <HashLink smooth to='/#download'>
+              <a>Download</a>
+            </HashLink>
           </div>
 
           <div className='space-y-4 flex flex-col md:items-start items-center'>

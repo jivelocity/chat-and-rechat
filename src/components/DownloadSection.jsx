@@ -4,7 +4,7 @@ import { BsCheck2 } from 'react-icons/bs'
 
 function DownloadSection() {
   return (
-    <div className='container mx-auto px-10 mt-24'>
+    <div id='download' className='container mx-auto px-10 mt-24'>
       <div className='grid lg:grid-cols-2 grid-row-2 bg-blue-500 rounded-3xl shadow-2xl shadow-blue-800/40 '>
         <div className='flex justify-center '>
           <div className=' py-20 lg:pl-20 px-8 md:space-y-6 space-y-4'>

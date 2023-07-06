@@ -3,7 +3,6 @@ import groupImage from '/assets/img/card1.png'
 import simpleImage from '/assets/img/card2.png'
 import speakImage from '/assets/img/card3.png'
 
-
 function FeatureSection() {
   const cardValues = [
     {
@@ -30,7 +29,6 @@ function FeatureSection() {
   ]
 
   const renderedCards = cardValues.map((cardValue) => {
-    
     return (
       <Card
         key={cardValue.id}
@@ -42,7 +40,7 @@ function FeatureSection() {
   })
 
   return (
-    <div className='container mx-auto px-10 py-24'>
+    <div id='fitur' className='container mx-auto px-10 py-24'>
       <div className='flex flex-col items-center md:space-y-24 space-y-16 bg-gradient-radial-custom'>
         <div className='flex flex-col items-center space-y-2'>
           <h5 className='text-sm text-dark font-semibold'>

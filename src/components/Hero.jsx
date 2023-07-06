@@ -1,4 +1,3 @@
-import React, { useRef, useEffect } from 'react'
 import circle from '/assets/img/bluecircle.png'
 
 import Button from './Button'
@@ -11,12 +10,11 @@ import { HiChevronLeft } from 'react-icons/hi'
 import { BsCheck2 } from 'react-icons/bs'
 import { AiOutlineSmile } from 'react-icons/ai'
 
-import ParallaxElement from '../plugin/ParallaxElement'
 import ParallaxMouseMove from '../plugin/ParallaxMouseMove'
 
 function Hero() {
   return (
-    <div className='container mx-auto px-10 mt-16'>
+    <div id='beranda' className='container mx-auto px-10 mt-16'>
       <div className='flex lg:space-x-8 flex-wrap lg:flex-nowrap'>
         {/* left side */}
         <div className=' lg:w-1/2 w-full flex flex-col justify-between order-2 lg:order-1 py-8'>
